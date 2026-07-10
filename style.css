@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    box-sizing: border-box;
+}
+.header{
+    height: 1050px;
+    color:rgb(49, 3, 122);
+    background-image:url(nithar5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F172A;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 3%;
+    padding-right: 7%;
+    font-size: 30px; 
+}
+nav ul li {
+    display: inline-block;
+    padding: 35px;
+    list-style-type: none;
+    font-weight: bold;
+}
+nav a {
+    color: #0F172A;
+}
+.content{
+    padding-left: 62%;
+    padding-top: 10%;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+}
+.about{
+    background-color: black;
+    color: white;
+    padding: 60px;
+    height: 680px;
+    display: flex;
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-family: cursive;
+  }
+.text{
+    padding: 30px;
+}
+.skills{
+    background-color: brown;
+    color:white;
+    height: 650px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    text-align: center;
+   font-family: cursive;
+}
+.skills h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.text1 p{
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    gap: 60px;
+    animation: scroll 40s linear infinite;
+}
+.card{
+    border-radius: 20px;
+    min-height: 300px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card:nth-child(odd){
+    background:linear-gradient(-229deg,green,grey);
+}
+.card:nth-child(even){
+    background:linear-gradient(-229deg,rgb(0, 15, 128),rgb(146, 1, 1));
+}
+/*@keyframes scroll{
+    0%{
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(calc(-250px*5));
+    }*/
+
+.contact{
+    background-color: black;
+    color:white;
+    height: 800px;
+}
+.contact-box{
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    
+    padding: 50px;
+}
+.contact-right{
+    flex-basis: 50%;
+   
+}
+.contact h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-left input{
+    color: black;
+}
+.contact-right img{
+    margin-bottom: 20px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    }
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 10px;
+    color: blue;
+}
+label{
+    margin-bottom: 7px;
+    display: block;
+}
+footer{
+    padding-left: 100px;
+}
